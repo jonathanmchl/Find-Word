@@ -99,7 +99,39 @@ int main ()
                           kata_ditemukan+=0; }
                         cek=0;
                         
-                        //windy hana uciii tolong yaaa cek lagi takut ada yang salah terus lanjutin lagiiiii uci udh ada yang w tambah 
+                    //Diagonal kiri atas
+                    for(int k=0;k<p_kata;k++){
+                        if(input[k]==puzzle[i-k][j-k]{
+                          cek=k;
+                        }
+                           else{
+                             break;
+                           }
+                           if(cek==p_kata-1)
+                           kata_ditemukan=1;
+                           }
+                           else{
+                             kata_ditemukan=0;
+                           }
+                           cek=0;
+                           
+                     //Diagonal kanan atas
+                     for(int k=0;k<p_kata;k++)
+                           if(input[k]==puzzle[i-k][j=k])
+                             cek=k;
+                           }
+                           else{
+                             break;
+                           }
+                           if(cek==p_kata-1)
+                            kata_ditemukan+=1;
+                           }
+                           else{
+                             kata_ditemukan=0;
+                           }
+                           cek=0;
+                        
+                        //tolong jo hana uciii tolong yaaa cek lagi takut ada yang salah terus lanjutin lagiiiii uci udh ada yang w tambah 
                           
                    
                
