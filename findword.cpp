@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <bits/stdc++.h>
 using namespace std;
 int main ()
 {
@@ -53,4 +54,56 @@ int main ()
             break;
             }
            }
+             if(cek==p_kata-1){
+               kata_ditemukan+=1; }
+              else{
+                kata_ditemukan+=0; }
+              cek=0;
+              
+              //Horizontal kiri
+              for(int k=0;k<p_kata,k++){
+                if(input[k]==puzzle[i][j-k]){
+                  cek=k; }
+                else{
+                  break; }
+              }
+              if(cek==p_kata-1){
+                kata_ditemukan+=1; }
+              else{
+                kata_ditemukan+=0; }
+              cek=0;
+              
+              //Vertikal Bawah
+              for(int k=0;k<p_kata;k++){
+                if(input[k]==puzzle[i-k][j]{
+                  cek=k; }
+                   else{
+                     break }
+                   }
+                   if(cek==p_kata-1){
+                     kata_ditemukan+=1 }
+                   else{
+                     kata_ditemukan+=0; }
+                   cek=0;
+                   
+                   //Vertikal Atas
+                   for(int k=0;k<p_kata;k++){
+                     if(input[k]==puzzle[i-k][j]{
+                       cek=k; }
+                        else {
+                          break }
+                        }
+                        if(cek==p_kata-1){
+                          kata_ditemukan+=1 }
+                        else{
+                          kata_ditemukan+=0; }
+                        cek=0;
+                        
+                        //windy hana uciii tolong yaaa cek lagi takut ada yang salah terus lanjutin lagiiiii uci udh ada yang w tambah 
                           
+                   
+               
+                 
+              
+       
+     
