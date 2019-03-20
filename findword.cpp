@@ -134,7 +134,7 @@ int main ()
                            cek=0;
                            //Diagona kiri bawah
                            for(int k=0;k<p_kata;k++){
-                             if(input[k]==puzzel[i+k][j-k]){
+                             if(input[k]==puzzle[i+k][j-k]){
                                cek=k;
                              }
                              else{
