@@ -4,10 +4,10 @@
 using namespace std;
 int main ()
 {
-  int p_kata, cek, kata,_ditemukan;
+  int p_kata, cek, kata_ditemukan;
   kata_ditemukan=0;
   char input[100];
-  char puzzle[15][15]={ {'t', 'g', 'b', 'w', 'w', 'i', 'n', 't', 'e'. 'r', 'w', 's', 'e', 's', 'n'}, 
+  char puzzle[15][15]={ {'t', 'g', 'b', 'w', 'w', 'i', 'n', 't', 'e', 'r', 'w', 's', 'e', 's', 'n'}, 
                         {'a', 'a', 'u', 'n', 't', 't', 'm', 'm', 'h', 'f', 'o', 'o', 'd', 'n', 'b'},
                         {'j', 'l', 'w', 'c', 'q', 'l', 'd', 'z', 'm', 'p', 'm', 'v', 'd', 'm', 'r'},
                         {'a', 's', 'a', 'g', 'm', 'q', 'u', 'w', 'v', 'v', 'b', 's', 'o', 'h', 'i'},
@@ -29,7 +29,7 @@ int main ()
       {
         cout<<puzzle[i][j]<<" ";
        }
-       cout<<endl;'
+       cout<<endl;
      }
      
      cout<<"Masukkan kata yang anda temukan : ";
@@ -45,7 +45,7 @@ int main ()
           //HORIZONTAL KANAN :
           for (int k=0; k<p_kata; k++)
           {
-          if (input[k]==puzzle[i][j+k]
+          if (input[k]==puzzle[i][j+k])
           {
             cek=k;
            }
@@ -61,7 +61,7 @@ int main ()
               cek=0;
               
               //Horizontal kiri
-              for(int k=0;k<p_kata,k++){
+              for(int k=0;k<p_kata;k++){
                 if(input[k]==puzzle[i][j-k]){
                   cek=k; }
                 else{
@@ -75,33 +75,33 @@ int main ()
               
               //Vertikal Bawah
               for(int k=0;k<p_kata;k++){
-                if(input[k]==puzzle[i-k][j]{
+                if(input[k]==puzzle[i-k][j]){
                   cek=k; }
                    else{
                      break; }
                    }
                    if(cek==p_kata-1){
-                     kata_ditemukan+=1 }
+                     kata_ditemukan+=1; }
                    else{
                      kata_ditemukan+=0; }
                    cek=0;
                    
                    //Vertikal Atas
                    for(int k=0;k<p_kata;k++){
-                     if(input[k]==puzzle[i-k][j]{
+                     if(input[k]==puzzle[i-k][j]){
                        cek=k; }
                         else {
                           break; }
                         }
                         if(cek==p_kata-1){
-                          kata_ditemukan+=1 }
+                          kata_ditemukan+=1; }
                         else{
                           kata_ditemukan+=0; }
                         cek=0;
                         
                     //Diagonal kiri atas
                     for(int k=0;k<p_kata;k++){
-                        if(input[k]==puzzle[i-k][j-k]{
+                        if(input[k]==puzzle[i-k][j-k]){
                           cek=k;
                         }
                            else{
