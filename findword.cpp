@@ -75,7 +75,7 @@ cout<<"MASUKKAN KATA YANG ANDA MASUKKAN"<<endl<<endl;
               
               //Vertikal Bawah
               for(int k=0;k<p_kata;k++){
-                if(input[k]==puzzle[i-k][j]){
+                if(input[k]==puzzle[i+k][j]){
                   cek=k; }
                    else{
                      break; }
@@ -101,7 +101,7 @@ cout<<"MASUKKAN KATA YANG ANDA MASUKKAN"<<endl<<endl;
                         
                     //Diagonal kiri atas
                     for(int k=0;k<p_kata;k++){
-                        if(input[k]==puzzle[i-k][j+k]){
+                        if(input[k]==puzzle[i-k][j-k]){
                           cek=k;
                         }
                            else{
@@ -118,7 +118,7 @@ cout<<"MASUKKAN KATA YANG ANDA MASUKKAN"<<endl<<endl;
                            
                      //Diagonal kanan atas
                      for(int k=0;k<p_kata;k++){
-                           if(input[k]==puzzle[i-k][j=k]){
+                           if(input[k]==puzzle[i-k][j+k]){
                              cek=k;
                            }
                            else{
