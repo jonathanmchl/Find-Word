@@ -183,14 +183,14 @@ int main ()
 				}
 				cek=0;
 				
-			}
+				}
 			
-		}
-	}
-	if(kata_ditemukan>0){
-		cout<<"ADA";
-	}
-	else {
-		cout<<"TIDAK ADA";
-	}
-}
+				}
+				}
+				if(kata_ditemukan>0){
+				cout<<"ADA";
+				}
+				else {
+				cout<<"TIDAK ADA";
+				}
+				}
