@@ -124,7 +124,7 @@ cout<<"MASUKKAN KATA YANG ANDA MASUKKAN"<<endl<<endl;
                            else{
                              break;
                            }
-                     }
+                         }
                            if(cek==p_kata-1){
                             kata_ditemukan+=1;
                            }
@@ -141,7 +141,7 @@ cout<<"MASUKKAN KATA YANG ANDA MASUKKAN"<<endl<<endl;
                              else{
                                break;
                              }
-                           }
+                            }
                                 if(cek==p_kata-1){
                                   kata_ditemukan+=1;
                              }
