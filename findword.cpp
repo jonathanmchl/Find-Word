@@ -151,14 +151,14 @@ int main ()
                            
                            ///DIAGONAL KIRI BAWAH
 				for (int k=0;k<p_kata;k++){
-					if (input[k]==puzzle[i+k][j-k]){
-						cek=k;
-					}
-					else{
-						break;
-					}
+				   if (input[k]==puzzle[i+k][j-k]){
+				    cek=k;
 				}
-				if (cek==p_kata-1){
+				else{
+				break;
+				}
+				}
+				    if (cek==p_kata-1){
 					kata_ditemukan+=1;
 				}
 				else{
@@ -168,18 +168,18 @@ int main ()
 				
 				///DIAGONAL KANAN BAWAH
 				for (int k=0;k<p_kata;k++){
-					if (input[k]==puzzle[i+k][j+k]){
-						cek=k;
-					}
-					else{
-						break;
-					}
-				}
-				if (cek==p_kata-1){
-					kata_ditemukan+=1;
+				    if (input[k]==puzzle[i+k][j+k]){
+					cek=k;
 				}
 				else{
-					kata_ditemukan+=0;
+					break;
+				}
+				}
+				if (cek==p_kata-1){
+				    kata_ditemukan+=1;
+				}
+				else{
+				     kata_ditemukan+=0;
 				}
 				cek=0;
 				
