@@ -78,7 +78,7 @@ int main ()
                 if(input[k]==puzzle[i-k][j]{
                   cek=k; }
                    else{
-                     break }
+                     break; }
                    }
                    if(cek==p_kata-1){
                      kata_ditemukan+=1 }
@@ -91,7 +91,7 @@ int main ()
                      if(input[k]==puzzle[i-k][j]{
                        cek=k; }
                         else {
-                          break }
+                          break; }
                         }
                         if(cek==p_kata-1){
                           kata_ditemukan+=1 }
@@ -157,7 +157,7 @@ int main ()
                              cout<<"TIDAK ADA";
                             }
                          }
-                 
+                 //udh w benerin -uci
               
        
      
