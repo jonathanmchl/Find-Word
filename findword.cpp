@@ -143,20 +143,20 @@ int main ()
                            if(cek==p_kata-1){
                               kata_ditemukan+=1;
                                }
-                               else{
-                               kata_ditemukan+=0;
-                                  }
-                                  cek=0;
-                                  }
-                                  }
-                                  }
-                               if(_ditemukan>0kata){
-                                    cout<<"ADA";
-                                  }
-                                else{
-                                cout<<"TIDAK ADA";
+                            else{
+                              kata_ditemukan+=0;
+                            }
+                              cek=0;
                                   }
                                   }
+                                  }
+                           if(kata_ditemukan>0){
+                              cout<<"ADA";
+                           }
+                           else{
+                             cout<<"TIDAK ADA";
+                            }
+                         }
                  
               
        
