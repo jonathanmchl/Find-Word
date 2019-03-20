@@ -23,6 +23,7 @@ int main ()
                         {'p', 'd', 'c', 'r', 'z', 'm', 's', 'n', 'g', 'r', 'd', 'n', 'r', 'p', 'z'},
                         {'o', 'h', 'n', 'k', 'z', 'w', 'a', 't', 'e', 'r', 'j', 'g', 't', 'r', 'a'} };
                         
+cout<<"MASUKKAN KATA YANG ANDA MASUKKAN"<<endl<<endl;
     for (int i=0; i<15; i++)
     {
       for (int j=0; j<15; j++)
@@ -32,7 +33,6 @@ int main ()
        cout<<endl;
      }
      
-     cout<<"Masukkan kata yang anda temukan : ";
      cin>>input;
      p_kata=strlen(input);
      
